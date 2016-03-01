@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
 	DESC
 
-	s.homepage	= "https://github.com/pluralsight/PSOperations"
+	s.homepage	= "https://github.com/agiletortoise/PSOperations"
 	s.license	= { :type => 'MIT' }
 	s.author	= "Matt McMurry", "Mark Schultz"
 
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
 
 	s.requires_arc = true
 
-	s.source 	= {  git: "https://github.com/pluralsight/PSOperations.git",  tag: s.version.to_s  }
+	s.source 	= {  git: "https://github.com/agiletortoise/PSOperations.git",  tag: s.version.to_s  }
 	s.source_files = 'PSOperations/**/*.swift'
 end
