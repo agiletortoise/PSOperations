@@ -51,7 +51,9 @@ subspec_sources = {
 		"PassKit" => ["PSOperations/Passbook*.swift"],
 		"Photos" => ["PSOperations/Photos*.swift"],
 		"SystemConfiguration" => ["PSOperations/ReachabilityCondition.swift"],
-		"EventKit" => ["PSOperations/Calendar*.swift"]
+		"EventKit" => ["PSOperations/Calendar*.swift"],
+		"Push" => ["PSOperations/Push*.swift"]
+		"UserNotification" => ["PSOperations/UserNotification*.swift"]
 		}
 	
 	s.source_files = "PSOperations/**/*.swift"
@@ -89,5 +91,13 @@ subspec_sources = {
 	s.subspec "EventKit" do |sb|
 		sb.source_files = subspec_sources["EventKit"]
 	end	
+	
+	s.subspec "Push" do |sb|
+		sb.source_files = subspec_sources["Push"]
+	end
+	
+	s.subspec "UserNotification" do |sb|
+		sb.source_files = subspec_sources["UserNotification"]
+	end
 	
 end
