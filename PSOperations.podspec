@@ -52,7 +52,7 @@ subspec_sources = {
 		"Photos" => ["PSOperations/Photos*.swift"],
 		"SystemConfiguration" => ["PSOperations/ReachabilityCondition.swift"],
 		"EventKit" => ["PSOperations/Calendar*.swift"],
-		"Push" => ["PSOperations/Push*.swift"]
+		"Push" => ["PSOperations/Push*.swift"],
 		"UserNotification" => ["PSOperations/UserNotification*.swift"]
 		}
 	
