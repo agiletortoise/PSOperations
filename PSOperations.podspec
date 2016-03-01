@@ -49,7 +49,6 @@ subspec_sources = {
 		"HealthKit" => ["PSOperations/Health*.swift"],
 		"CoreLocation" => ["PSOperations/Location*.swift"],
 		"PassKit" => ["PSOperations/Passbook*.swift"],
-		"Photos" => ["PSOperations/Photos*.swift"],
 		"SystemConfiguration" => ["PSOperations/ReachabilityCondition.swift"],
 		"EventKit" => ["PSOperations/Calendar*.swift"],
 		"Push" => ["PSOperations/Push*.swift"],
@@ -78,10 +77,6 @@ subspec_sources = {
 
 	s.subspec "PassKit" do |sb|
 		sb.source_files = subspec_sources["PassKit"]
-	end
-
-	s.subspec "Photos" do |sb|
-		sb.source_files = subspec_sources["Photos"]
 	end
 
 	s.subspec "SystemConfiguration" do |sb|
